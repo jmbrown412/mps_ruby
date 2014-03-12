@@ -1,0 +1,6 @@
+This is a Ruby script for processing payments with
+Mercurys payment platform.
+
+See the one spec in spec/credit_sale_spec.rb for an example of use.
+
+Have fun!

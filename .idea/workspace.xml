@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f847cce-8af4-48f0-9770-16083fe7b256" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mercury_ruby_client/constants.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/credit_sale_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mercury_ruby_client.gemspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mercury_ruby_client.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mercury_ruby_client/version.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
     </list>
     <ignored path="mercury_ruby_client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,24 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="credit_sale_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/credit_sale_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spec_set.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/bundler-1.3.5/lib/bundler/spec_set.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,10 +49,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="example.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/rspec-core-2.14.7/lib/rspec/core/example.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="0" selection-start="4268" selection-end="4268" vertical-scroll-proportion="0.33333334" vertical-offset="1660" max-vertical-offset="4965">
+            <state line="119" column="0" selection-start="4268" selection-end="4268" vertical-scroll-proportion="0.0" vertical-offset="1660" max-vertical-offset="4965">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="9" selection-start="157" selection-end="157" vertical-scroll-proportion="0.19329897" vertical-offset="0" max-vertical-offset="388">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mercury_ruby_client.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/mercury_ruby_client.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -149,6 +140,7 @@
         <option value="$PROJECT_DIR$/lib/mercury_ruby_client.rb" />
         <option value="$PROJECT_DIR$/spec/credit_sale_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -199,6 +191,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mercury_ruby_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercury_ruby_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercury_ruby_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,6 +463,42 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="RSpec.Running a credit sale should send a message to Mercury REST Api: mercury_ruby_client" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.MercuryRubyClient::CreditSale should send a message to Mercury REST Api: mercury_ruby_client" />
@@ -531,13 +573,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mercury_ruby_client.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="465" />
@@ -829,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/mercury_ruby_client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="1" selection-start="276" selection-end="277" vertical-scroll-proportion="0.20501138" vertical-offset="0" max-vertical-offset="439">
@@ -859,7 +887,21 @@
     </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/rspec-core-2.14.7/lib/rspec/core/example.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="4268" selection-end="4268" vertical-scroll-proportion="0.33333334" vertical-offset="1660" max-vertical-offset="4965">
+        <state line="119" column="0" selection-start="4268" selection-end="4268" vertical-scroll-proportion="0.0" vertical-offset="1660" max-vertical-offset="4965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mercury_ruby_client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="157" selection-end="157" vertical-scroll-proportion="0.19329897" vertical-offset="0" max-vertical-offset="388">
           <folding />
         </state>
       </provider>
